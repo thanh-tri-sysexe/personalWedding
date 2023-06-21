@@ -29,3 +29,34 @@
   font-size: 20px;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 600px){ 
+  .container-circle {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .container-circle .image-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .container-circle h4 {
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--color-main);
+  }
+  .container-circle p {
+    font-weight:600;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+}

@@ -4,7 +4,7 @@
 }
 .container-image-undo {
   position: relative;
-  margin: 10px;
+
 }
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .container-service-undo {
@@ -96,10 +96,27 @@
   }
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+@media only screen and (max-width: 600px) {
+
   .container-service-undo {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    gap: 30px;
+  }
+
+  .div-image-undo {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .container-image-undo{ 
+    width: 100%;
+    height: 300px;
   }
 
   .after-back-undo {
@@ -116,6 +133,72 @@
     top: 40px;
     z-index: 2;
     width: 300px;
-    height: 300px !important;
+    height: 300px ;
+  }
+
+  .before-back-undo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .div-content-undo{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-main);
+    padding-top: 10px;
+    position: relative;
+  }
+  .div-content-top{ 
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: 24px;
+    color: var(--color-header);
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
+  .div-content-middle {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 700;
+    font-family: var(--font-main);
+  }
+
+  .first , .second , .thirst {
+    width: calc(100%/3);
+  }
+  .second{ 
+    color: var(--color-header);
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .first { 
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .div-content-bottom{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
   }
 }

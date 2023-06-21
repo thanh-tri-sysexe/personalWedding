@@ -15,7 +15,6 @@ export default function MainPicture() {
   return (
     <div
       className="d-flex align-items-center picture-container"
-      style={{ backgroundImage: `url(${background[0]})`, height: 600 }}
     >
       <div className="big-container-main">
         <img src={images[0]} alt="" />

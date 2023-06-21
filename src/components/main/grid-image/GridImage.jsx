@@ -32,7 +32,7 @@ const GridImage = () => {
   return <div className="container-image">
     <div className="grid-container">{item}</div>
     <div className="div-first">
-      <div className="div-image-first image">
+      <div className="div-image-first">
         <img src="https://res.cloudinary.com/johnle/image/upload/v1687240612/Wedding%20Lap/vhqj2sbgkcg7o6fr0t3k.jpg" alt=""   />
       </div>
       <div className="div-image-second">

@@ -10,7 +10,7 @@ const ListImage = () => {
 
   ];
   return (
-    <>
+    <div className="container-listImage">
       <div className="content-list">
         <h3> Sự hiện diện của quý gia đình</h3>
         <p> Là niềm hạnh phúc của gia đình chúng tôi</p>
@@ -21,7 +21,7 @@ const ListImage = () => {
         <img src={images[2]} alt="" />
         <img src={images[3]} alt="" />
       </div>
-    </>
+    </div>
   );
 };
 

@@ -20,11 +20,6 @@ export default function Home() {
     "https://res.cloudinary.com/johnle/image/upload/v1687240610/Wedding%20Lap/v9vftma6osbscemt5edf.jpg";
   const nameWife = "Trịnh Thị Tuyết Lập";
   const descriptionWife = "Trưởng nữ";
-
-  
-
-
-
   return (
     <div>
       <div className="header-container" >
@@ -39,6 +34,16 @@ export default function Home() {
           <span> Weddings</span>
         </div>
         <div className="content-circle">
+        <div>
+            <CircleImage
+              img={imgWife}
+              name={nameWife}
+              description={descriptionWife}
+            />
+          </div>
+          <div className="image-ring">
+            <img src="https://res.cloudinary.com/johnle/image/upload/v1687320524/u1vx5chsyupn3jhxzshc.png" alt="" />
+          </div>
           <div>
             <CircleImage
               img={imgHusband}
@@ -46,26 +51,20 @@ export default function Home() {
               description={descriptionHusband}
             />
           </div>
-          <div>
-            <CircleImage
-              img={imgWife}
-              name={nameWife}
-              description={descriptionWife}
-            />
-          </div>
+
         </div>
       </div>
-      <div style={{ display: "block" }}>
+      <div className="div-service" >
         <ServiceRedo  />
       </div>
-      <div style={{ display: "block" }}>
+      <div className="div-service">
         <ServiceUno />
       </div>
       
-      <div>
+      <div className="div-service">
         <ListImage />
       </div>
-      <div>
+      <div className="div-service">
         <Footer />
       </div>
     </div>

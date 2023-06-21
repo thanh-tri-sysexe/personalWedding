@@ -50,12 +50,7 @@ const Footer = () => {
             Kiên lương,
             Kiên Giang</div>
         </div>
-        <div className="contents-footer">
-          <div className="icon">
-            <Man2SharpIcon />
-          </div>
-          <div className="content-footer">Đia chỉ nhà trai</div>
-        </div>
+       
       </div>
       <div className="columns-footer">
         <div className="header-footer">Thời gian</div>
