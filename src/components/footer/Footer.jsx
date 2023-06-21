@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="icon">
             <Woman2SharpIcon />
           </div>
-          <div className="content-footer">16, KP kiên tân, 
+          <div className="content-footer">16, KP Kiên Tân, 
             Kiên lương,
             Kiên Giang</div>
         </div>
