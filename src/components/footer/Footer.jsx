@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="icon">
             <CallSharpIcon />
           </div>
-          <div className="content-footer"> 09912991221</div>
+          <div className="content-footer"> 0376098777</div>
         </div>
         <div className="contents-footer">
           <div className="icon">
