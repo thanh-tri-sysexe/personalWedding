@@ -1,0 +1,19 @@
+:root {
+  --font-header: "Parisienne", cursive;
+  --font-main: "Roboto Condensed", sans-serif;
+  --background-header: #ffffff;
+  --background-main: #ffffff;
+  --background-image-after: #e2c4a1;
+  --color-sidebar: #e2c4a1;
+  --color-header: #a2782f;
+  --color-sub:#8e6929;
+  --color-main: #818491;
+  --size-header: 13px;
+  --size-big-header: 55px;
+  --size-subling: 30px;
+}
+
+.body {
+  font-family: var(--font-main);
+  scroll-behavior: smooth;
+}
